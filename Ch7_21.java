@@ -31,7 +31,7 @@ public class Ch7_21 {
             {
                 for (int bar = 0; bar < 5; bar++)   // 숫자 하나당 Bar는 5개
                 {
-                    if (barNum[digit][bar] == 1)  // int Arr에 저장된 각 자릿수와 대응하는 Bar Number가 1인가?
+                    if (barNum[digit][bar] == 1)  // int Arr에 저장된 각 자릿수(digit)와 대응하는 Bar Number가 1인가?
                         System.out.print("|");      // 1이면 Bar 출력
                     else
                         System.out.print(" ");
