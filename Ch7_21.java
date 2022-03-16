@@ -8,7 +8,6 @@ public class Ch7_21 {
         System.out.print(num);
         barcodeGen(num);
         sc.close();
-
     }
 
     static void barcodeGen(String num)
