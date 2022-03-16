@@ -6,7 +6,6 @@ public class Ch7_21 {
         System.out.print("Input 5 digits number > ");
         String num = sc.nextLine();
         System.out.print(num);
-        System.out.print("\n");   // delete it
         barcodeGen(num);
         sc.close();
 
