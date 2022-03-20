@@ -1,11 +1,13 @@
-public class Stud {
+package Stud;
+
+public class Study {
     public String name;
     public double kor, eng, math;
 
-    public Stud(String iName, double iKor, double iEng, double iMath)
+    public Study(String name, double kor, double eng, double math)
     {
-        name = iName;
-        kor = iKor; eng = iEng; math = iMath;
+        this.name = name;
+        this.kor = kor; this.eng = eng; this.math = math;
     }
     String getName()
     {
